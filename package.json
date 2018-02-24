@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./node_server/app.js",
-    "sclient":"node ./node_server/task/sclient.js"
+    "start": "node ./node/app.js",
+    "sclient":"node ./node/task/sclient.js"
   },
   "dependencies": {
     "async": "^2.0.0-rc.3",
