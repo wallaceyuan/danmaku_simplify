@@ -93,7 +93,6 @@ function normalizePort(val) {
   return false;
 }
 
-
 function onError(error) {
   if (error.syscall !== 'listen') {
     throw error;
@@ -117,7 +116,6 @@ function onError(error) {
       throw error;
   }
 }
-
 
 function onListening() {
   var addr = server.address();

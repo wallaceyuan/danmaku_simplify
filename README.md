@@ -20,5 +20,17 @@ task --逻辑处理模块
 
 
 
+### tip
+1.redis 启动到后台
+```
+cd /etc/redis
+redis-server /etc/redis/redis.conf
+-----
+cd /usr/local/etc/
+redis-server /usr/local/etc/redis.conf
+```
+
+
+
 ### 弹幕播放器
 收发消息效果和 http://127.0.0.1:3000/chats/live/1#/  下相同

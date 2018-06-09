@@ -1,0 +1,65 @@
+body,dd,dl,dt,form,input,li,p,ul{margin:0;padding:0;list-style:none;vertical-align:middle;}
+em,h1,h2,h3,h4,h5,h6,strong{font-weight:400;font-style:normal;}
+img{border:0;}
+a{text-decoration:none;}
+html{font-size:100%;}
+a{color:#333;text-decoration:none;}
+.clearfix:after{clear:both;display:block;visibility:hidden;height:0;content:" ";font-size:0;}
+.clearfix{zoom:1;}
+p{display:block;-webkit-margin-before:0;-webkit-margin-after:0;-webkit-margin-start:0;-webkit-margin-end:0;}
+body{background:url(/images/back.jpg) no-repeat center center fixed;background-size:cover;}
+.panel-body{width:100%;height:500px;}
+.user-content{overflow-x:hidden;color:#fff;}
+.user-content ul li{position:relative;display:block;border-bottom:1px solid #999;color:#fff;cursor:pointer;}
+.user-content ul li .cover{position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.6);vertical-align:middle;}
+.user-content ul li button{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);}
+.user-content ul li a{display:block;text-decoration:none;}
+.user-content ul li img{margin:10px 5px 10px 5px;width:45px;height:45px;}
+.user-content ul li i{float:right;line-height:66px;}
+.user-content ul li i img{margin:0;width:20px;height:20px;}
+.user-content ul li span{font-size:16px;}
+.container.chat{margin-top:100px;}
+.chat .panel{background:rgba(0,0,0,.6);}
+.mask{position:fixed;top:0;left:0;z-index:100;width:100%;height:100%;background:rgba(0,0,0,.7);}
+.mask .jumbotron{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);}
+.message-receive,.message-reply{padding-bottom:10px;}
+#messageUl .time{color:#fff;text-align:center;}
+#messageUl .time i{display:inline-block;margin-left:5px;width:12px;height:12px;background:url(/images/clock.png);background-size:cover;}
+.message-info{position:relative;overflow:hidden;}
+.img-thumbnail{display:inline-block;padding:4px;width:100%\9;height:auto;max-width:100%;border:1px solid #ddd;border-radius:4px;background-color:#fff;line-height:1.42857143;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out;}
+.user-avatar{position:absolute;top:0;width:40px;height:40px;}
+.message-reply .user-avatar{right:0;}
+.message-reply .name{margin-right:60px;color:#fff;text-align:right;}
+.message-receive .user-avatar{left:0;}
+.message-receive .name{margin-left:60px;color:#fff;}
+.message-content-box{position:relative;padding:8px;border-radius:5px;word-break:break-word;}
+.message-reply .message-content-box{float:right;margin-right:60px;background:#b8db29;color:#333;}
+.message-receive .message-content-box{float:left;margin-left:60px;background:#EEE;color:#333;}
+.message-content-box .arrow{position:absolute;top:5px;width:0;height:0;border-style:solid;border-width:5px;font-size:0;}
+.message-reply .message-content-box .arrow{right:-10px;border-color:transparent transparent transparent #b8db29;}
+.message-receive .message-content-box .arrow{left:-10px;border-color:transparent #EEE transparent transparent;}
+.message-content{overflow:hidden;max-width:500px;word-wrap:break-word;}
+.dialog{display:none;}
+.ptpChat{position:absolute;top:100px;right:20px;left:auto;z-index:10000;}
+.ptpChat .panel-body{height:200px;}
+.room{color:#fff;}
+.ptpChat .btn{padding:6px;}
+#ptpUl span{float:right;color:#fff;}
+.room-receive{background:#247B2E;}
+.css3{width:calc(100% + 2em);box-shadow:0 0;font-size:24px;}
+blockquote,body,button,code,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,legend,li,ol,p,pre,td,textarea,th,ul{margin:0;padding:0;}
+fieldset,img{border:0;}
+:focus{outline:0;}
+address,cite,code,ctoolion,dfn,em,optgroup,strong,th,var{font-weight:400;font-style:normal;}
+h1,h2,h3,h4,h5,h6{font-weight:400;font-size:100%;}
+abbr,acronym{border:0;font-variant:normal;}
+button,input,optgroup,option,select,textarea{font-weight:inherit;font-style:inherit;font-size:inherit;font-family:inherit;}
+code,kbd,samp,tt{font-size:100%;}
+body{line-height:1.5;}
+ol,ul{list-style:none;}
+table{border-collapse:collapse;border-spacing:0;}
+ctoolion,th{text-align:left;}
+sub,sup{vertical-align:baseline;font-size:100%;}
+:link,:visited,ins{text-decoration:none;}
+blockquote,q{quotes:none;}
+blockquote:after,blockquote:before,q:after,q:before{content:'';content:none;}
